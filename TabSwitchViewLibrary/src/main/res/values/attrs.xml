@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TabSwitch">
+        <!-- 外层背景 -->
+        <attr name="layoutBackground" format="reference" />
+        <!-- 外层Padding值 -->
+        <attr name="layoutPaddingLeft" format="dimension"/>
+        <attr name="layoutPaddingTop" format="dimension"/>
+        <attr name="layoutPaddingRight" format="dimension"/>
+        <attr name="layoutPaddingBottom" format="dimension"/>
+        <!-- 整个Tab的背景 -->
+        <attr name="tabBackground" format="reference" />
+
+        <attr name="itemTextColorNormal" format="reference" />
+        <attr name="itemTextColorPressed" format="reference" />
+        <attr name="itemText" format="string" />
+        <!-- Tab的数量 -->
+        <attr name="itemNum" format="integer" />
+        <!-- Tab的选中背景 -->
+        <attr name="itemSelBg" format="reference"/>
+    </declare-styleable>
+    
+</resources>

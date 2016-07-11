@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/ll_tab"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@android:color/white"
-    android:orientation="horizontal"
-    android:padding="10dp" >
+<LinearLayout android:id="@+id/ll_tab"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+    >
 
     <FrameLayout
+        android:id="@+id/bg_tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@mipmap/bg_gray" >
+        android:background="@mipmap/bg_gray">
 
         <ImageView
-            android:id="@+id/iv_tab_bg"
+            android:id="@+id/bg_iv_tab"
             android:layout_width="80dp"
             android:layout_height="match_parent"
-            android:background="@mipmap/bg_green" />
+            android:background="@mipmap/bg_green"/>
 
         <LinearLayout
             android:id="@+id/ll_tab_content"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
         </LinearLayout>
     </FrameLayout>

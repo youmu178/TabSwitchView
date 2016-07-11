@@ -1,4 +1,4 @@
-package com.youzh.tabswitchview;
+package com.youzh.tabswitchviewlibrary;
 
 import android.app.Activity;
 import android.content.Context;
