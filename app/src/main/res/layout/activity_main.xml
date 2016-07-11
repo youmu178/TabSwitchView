@@ -10,10 +10,10 @@
         android:id="@+id/switchTab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:itemText="每日赚取,持有投资,到期退出"
         android:layout_marginTop="10dp"
-        app:itemTextColorNormal = "@color/bg_green"
-        app:itemTextColorPressed = "@android:color/white"/>
+        app:itemText="每日赚取,持有投资,到期退出"
+        app:itemTextColorNormal="@color/bg_green"
+        app:itemTextColorPressed="@android:color/white"/>
 
 
     <android.support.v4.view.ViewPager
