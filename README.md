@@ -26,3 +26,5 @@
 | itemText | string | Tab的描述，以英文逗号分隔
 | itemNum | integer | Tab的数量
 | itemSelBg | reference | Tab滑动的图片
+####欢迎关注
+![](https://github.com/youmu178/Pic/blob/master/itbox_qr.jpg)
